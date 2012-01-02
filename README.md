@@ -17,10 +17,18 @@ To run the server, run `sudo src/cmd/fingerd/fingerd`. Sudo is required because 
 default it listens on `127.0.0.1`. To listen on all interfaces (not recommended!) you can run `sudo src/cmd/fingerd/fingerd -a 0.0.0.0`.
 To listen on a specific interface, specify the IP address of that interface.
 
+To run the client, run `src/cmd/finger/finger`.  The client is short and sweet but hardcoded to ask for the default report on localhost.
+
 Formatting
 ==========
 
 Gofinger has been formatted with [gofmt](http://golang.org/cmd/gofmt/).  To re-run gofmt, run `make gofmt` from the main directory.
+
+Acknowledgements
+================
+
+The overall architecture of fingerd.go was heavily influenced by [noeqd](https://github.com/bmizerany/noeqd). Handling each request with a
+goroutine feels right.
 
 License
 =======

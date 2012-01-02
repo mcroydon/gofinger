@@ -3,3 +3,5 @@
 *.[568vq]
 [568vq].out
 _testmain.go
+src/cmd/finger/finger
+src/cmd/fingerd/fingerd

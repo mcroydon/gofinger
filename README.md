@@ -22,7 +22,8 @@ To run the client, run `src/cmd/finger/finger`.  The client is short and sweet b
 Formatting
 ==========
 
-Gofinger has been formatted with [gofmt](http://golang.org/cmd/gofmt/).  To re-run gofmt, run `make gofmt` from the main directory.
+Gofinger has been formatted with [gofmt](http://golang.org/cmd/gofmt/).  To re-run gofmt, run `make gofmt` from the main directory and commit
+the changes.
 
 Acknowledgements
 ================
